@@ -1,0 +1,96 @@
+/**
+ * Easter Egg link
+ * ----------------------------------------------------------------------------
+ */
+a[href="#easter-egg"] {
+	/*bottom: 0;*/
+	color: #fff;
+	display: block;
+	font-weight: bold;
+	height: 16px;
+	opacity: 0.25;
+	position: fixed; position: absolute;
+	right: 1em;
+	text-align: center;
+	text-decoration: none;
+	/*text-shadow: 1px 1px 2px #000;*/
+	top: 37px;
+	width: 16px;
+	z-index: 271;
+}
+a[href="#easter-egg"]:hover {
+	opacity: 0.75;
+}
+.logged-in a[href="#easter-egg"] { 
+	top: 69px;
+}
+#easter-egg-note {
+	display: none;
+}
+#easter-egg-note .answer {
+	display: none;
+}
+#easter-egg-note .pagebuilder-item {
+	background: none;
+	padding: 0;
+}
+
+/* IE 7 and 8 (http://css-tricks.com/perfect-full-page-background-image/ technique 2) */
+#cahnrs-ee-ie {
+  position: fixed; 
+  top: -50%; 
+  left: -50%;
+  width: 200%; 
+  height: 200%;
+}
+#cahnrs-ee-ie img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+/**
+ * jQuery UI dialog styles
+ * ----------------------------------------------------------------------------
+ */
+/* clearfix */
+.ui-helper-clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.ui-helper-clearfix { display: inline-block; }
+/* required comment for clearfix to work in Opera \*/
+* html .ui-helper-clearfix { height:1%; }
+.ui-helper-clearfix { display:block; }
+/* Overlay */
+.ui-widget-overlay { height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 99165; }
+/* Component containers */
+.ui-widget-content { background: rgba( 255, 255, 255, 0.9 ); }
+.ui-widget-header { border-bottom: 1px solid #5e6a71; font-size: 1.2em; font-weight: bold; }
+/* Close button X, maybe not the best way to add it */
+.ui-dialog .ui-dialog-titlebar-close:after { color: #5e6a71; content: "\d7"; font-weight: bold; position: absolute; top: 0; bottom: 0; left: 0; right: 0; text-align: center; }
+.ui-dialog .ui-dialog-titlebar-close.ui-state-hover:after { color: #fff; } 
+/* Interaction states */
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { background: none; border: 1px solid #5e6a71; border-radius: 0; }
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { background: #5e6a71; }
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { background: #c60c30; border: 1px solid #c60c30; font-weight: bold; color: #ffffff; }
+.ui-widget :active { outline: none; }
+/* jQuery UI Button 1.8.16 */
+.ui-button { display: inline-block; position: relative; padding: 0; margin-right: .1em; text-decoration: none !important; cursor: pointer; text-align: center; zoom: 1; overflow: visible; } /* the overflow property removes extra width in IE */
+button.ui-button-icon-only { width: 2.4em; } /* button elements seem to need a little more width */
+.ui-button-icon-only .ui-button-text, .ui-button-icons-only .ui-button-text { padding: .4em; text-indent: -9999999px; }
+button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra padding in Firefox */
+/* jQuery UI Dialog 1.8.16 */
+.ui-dialog { position: absolute; padding: .2em; width: 300px; overflow: hidden; z-index: 99166; }
+.ui-dialog .ui-dialog-titlebar { padding: .4em 1em; position: relative;  }
+.ui-dialog .ui-dialog-title { float: left; font-weight: bold; margin: .1em 16px .1em 0; } 
+.ui-dialog .ui-dialog-titlebar-close { position: absolute; right: .3em; top: 50%; width: 19px; margin: -10px 0 0 0; padding: 1px; height: 18px; }
+.ui-dialog .ui-dialog-titlebar-close span { display: block; margin: 1px; }
+.ui-dialog .ui-dialog-titlebar-close:hover, .ui-dialog .ui-dialog-titlebar-close:focus { padding: 0; }
+.ui-dialog .ui-dialog-titlebar-close:focus { background: none; }
+.ui-dialog .ui-dialog-titlebar-close:focus:hover { background: #5e6a71; }
+.ui-dialog .ui-dialog-content { position: relative; border: 0; padding: .5em 1em; background: none; overflow: auto; zoom: 1; }
+/* Just a silly thing */
+.ui-widget-content ul li { list-style: none; }

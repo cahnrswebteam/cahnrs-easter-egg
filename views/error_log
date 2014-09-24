@@ -1,0 +1,4 @@
+[24-Jun-2014 11:36:10 America/Los_Angeles] PHP Fatal error:  Call to undefined function have_posts() in /home/wpdev/public_html/m1.wpdev.cahnrs.wsu.edu/wp-content/plugins/cahnrs-easter-egg/views/single.php on line 6
+[24-Jun-2014 11:38:39 America/Los_Angeles] PHP Fatal error:  Class 'WP_Query' not found in /home/wpdev/public_html/m1.wpdev.cahnrs.wsu.edu/wp-content/plugins/cahnrs-easter-egg/views/single.php on line 6
+[24-Jun-2014 11:38:51 America/Los_Angeles] PHP Fatal error:  Class 'WP_Query' not found in /home/wpdev/public_html/m1.wpdev.cahnrs.wsu.edu/wp-content/plugins/cahnrs-easter-egg/views/single.php on line 6
+[24-Jun-2014 11:40:20 America/Los_Angeles] PHP Fatal error:  Class 'WP_Query' not found in /home/wpdev/public_html/m1.wpdev.cahnrs.wsu.edu/wp-content/plugins/cahnrs-easter-egg/views/single.php on line 6
